@@ -1,0 +1,247 @@
+@media only screen and (max-width: 600px) {
+    .logo img{
+        width: 50px;
+    }
+    .location{
+        display: none;
+    }
+    .sort a{
+        display: none;
+    }
+    .log , .register{
+        display: none;
+    }
+    .search-container{
+        width: 100px;
+        margin-right: 0;
+    }
+    .f-shops a{
+        width: 231px;
+        margin-bottom: 20px;
+    }
+    .f-shops {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .food a{
+        width: 231px;
+        margin-bottom: 20px;
+    }
+    .food{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    footer{
+        height: 180px;
+        bottom: 0;
+    }
+    .firstF {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+    }
+    .firstF a{
+        display: flex;
+        font-size: 20px;
+        margin: 8px 0;
+    }
+    .firstF img{
+        width: 24px;
+    }
+    .lastF{
+        display: flex;
+        flex-direction: column;
+        margin: 15px 0;
+        margin-right: 10px;
+    }
+    .lastF a,p{
+        font-size: 20px;
+        margin: 3px 0;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .logo img{
+        width: 50px;
+    }
+    .location{
+        display: none;
+    }
+    .sort a{
+        display: none;
+    }
+    .log , .register{
+        display: none;
+    }
+    .search-container{
+        width: 100px;
+        margin-right: 0;
+    }
+    .f-shops a{
+        width: 231px;
+        margin-bottom: 20px;
+    }
+    .f-shops {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .food a{
+        width: 231px;
+        margin-bottom: 20px;
+    }
+    .food{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    footer{
+        height: 180px;
+        bottom: 0;
+    }
+    .firstF {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+    }
+    .firstF a{
+        display: flex;
+        font-size: 20px;
+        margin: 8px 0;
+    }
+    .firstF img{
+        width: 24px;
+    }
+    .lastF{
+        display: flex;
+        flex-direction: column;
+        margin: 15px 0;
+        margin-right: 10px;
+    }
+    .lastF a,p{
+        font-size: 20px;
+        margin: 3px 0;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    footer{
+        display: flex;
+        justify-content: space-between;
+        height: 50px;
+        background-color: black;
+        color: white;
+        font-size: 14px;
+    }
+    footer a{
+        text-decoration: none;
+        color: white;
+    }
+    footer img{
+        margin: 0 5px;
+    }
+    .firstF , .lastF{
+        justify-content: space-between;
+    }
+    .firstF{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        margin-left: 15px;
+    }
+    .firstF a{
+        display: inline-flex;
+        text-align: center;
+        align-items: center;
+        margin: 0 10px;
+        font-size: 14px;
+    }
+    .firstF img{
+        width: 16px;
+    }
+    .lastF{
+        display: flex;
+        flex-direction: row;
+        margin-right: 10px;
+    }
+    .lastF a ,p{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        font-size: 14px;
+    }
+    .lastF a{
+        margin: 0 10px;
+    }
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .profile{
+        display: none;
+    }
+    .register,.log{
+        display: inline-flex;
+    }
+    .search-container{
+        width: 170px;
+    }
+    footer{
+        display: flex;
+        justify-content: space-between;
+        height: 50px;
+        background-color: black;
+        color: white;
+        font-size: 14px;
+        bottom: 0;
+    }
+    footer a{
+        text-decoration: none;
+        color: white;
+    }
+    footer img{
+        margin: 0 5px;
+    }
+    .firstF , .lastF{
+        justify-content: space-between;
+    }
+    .firstF{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        margin-left: 15px;
+    }
+    .firstF a{
+        display: inline-flex;
+        text-align: center;
+        align-items: center;
+        margin: 0 10px;
+        font-size: 14px;
+    }
+    .firstF img{
+        width: 16px;
+    }
+    .lastF{
+        display: flex;
+        flex-direction: row;
+        margin-right: 10px;
+    }
+    .lastF a ,p{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        font-size: 14px;
+    }
+    .lastF a{
+        margin: 0 10px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
