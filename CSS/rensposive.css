@@ -88,7 +88,7 @@
         flex-wrap: wrap;
     }
     .food a{
-        width: 231px;
+        width: 200px;
         margin-bottom: 20px;
     }
     .food{
@@ -188,6 +188,7 @@
     }
     .search-container{
         width: 170px;
+        margin-right: 60px;
     }
     footer{
         display: flex;
