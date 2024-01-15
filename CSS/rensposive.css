@@ -16,21 +16,27 @@
         margin-right: 0;
     }
     .f-shops a{
-        width: 231px;
-        margin-bottom: 20px;
+        margin: 20px 0;
     }
     .f-shops {
         display: flex;
         align-items: center;
         flex-direction: column;
     }
-    .food a{
-        width: 231px;
-        margin-bottom: 20px;
-    }
     .food{
         display: flex;
-        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+    }
+    .food p{
+        font-size: 15px;
+        margin-top: 160px;
+        margin-left: 5px;
+    }
+    .food h5{
+        margin-top: 120px;
+        font-size: 20px;
+        margin-left: 5px;
     }
     footer{
         height: 180px;
@@ -180,6 +186,9 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    .location{
+        display: flex;
+    }
     .profile{
         display: none;
     }
@@ -188,7 +197,6 @@
     }
     .search-container{
         width: 170px;
-        margin-right: 60px;
     }
     footer{
         display: flex;
