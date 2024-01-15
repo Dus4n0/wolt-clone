@@ -139,14 +139,36 @@ nav{
     background-color: rgb(238, 238, 238);
     color: black;
 }
-.background{
-    display: none;
+.head{
+    display: inline-flex;
+    position: relative;
+    height: 300px;
+}
+.present{
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 300px;
+}
+.present p{
+    margin: 20px 0;
+}
+.avatar{
+    background-image: url(../Assets/background.avif);
+    height: 500px;
+    width: 300px;
+    margin-left: 400px;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
 }
 /*Favorites shops*/
 .shops h3{
     margin-left: 20px;
 }
-
+.shops{
+    margin-top: 20px;
+    z-index: 0;
+}
 .f-shops img{
     width: 231px;
     border-bottom: 1px solid white;
@@ -167,10 +189,10 @@ nav{
     color: black;
     font-weight: bold;
     font-size: 18px;
-    box-shadow: 5px 2px 2px rgb(219, 219, 219);
+    box-shadow: 3px 2px 2px rgb(219, 219, 219);
 }
 .f-shops a:hover{
-    box-shadow: 5px 2px 2px rgb(190, 190, 190);
+    box-shadow: 3px 2px 2px rgb(190, 190, 190);
 }
 .f-shops p{
     display: block;
