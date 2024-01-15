@@ -38,6 +38,12 @@
         font-size: 20px;
         margin-left: 5px;
     }
+    .hPre{
+        display: none;
+    }
+    .head{
+        display: none;
+    }
     footer{
         height: 180px;
         bottom: 0;
@@ -100,6 +106,22 @@
     .food{
         display: flex;
         flex-wrap: wrap;
+    }
+    .hPre{
+        display: none;
+    }
+    .head{
+        display: none;
+    }
+    .food p{
+        font-size: 15px;
+        margin-top: 160px;
+        margin-left: 5px;
+    }
+    .food h5{
+        margin-top: 120px;
+        font-size: 20px;
+        margin-left: 5px;
     }
     footer{
         height: 180px;
@@ -181,7 +203,12 @@
     .lastF a{
         margin: 0 10px;
     }
-    
+    .hPre{
+        display: flex;
+    }
+    .head{
+        display: flex;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -197,6 +224,12 @@
     }
     .search-container{
         width: 170px;
+    }
+    .sort{
+        display: flex;
+    }
+    .sort a{
+        display: flex;
     }
     footer{
         display: flex;

@@ -141,25 +141,83 @@ nav{
 }
 .head{
     display: inline-flex;
+    justify-content: space-between;
     position: relative;
-    height: 300px;
+    margin-top: 20px;
+    height: 400px;
+    width: 100%;
+    z-index: -1;
+    background-color: rgb(224, 119, 81);
 }
 .present{
     margin-left: 40px;
     margin-top: 30px;
     width: 300px;
+    height: 50px;
 }
 .present p{
     margin: 20px 0;
+    height: 100px;
+}
+.hPre{
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    top: -70px;
+}
+.food1{
+    background-image: url(../Assets/food1.avif);
+    margin: 0 20px;
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    h5{
+        margin-top: 180px;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    p{
+        margin-left: 10px;
+    }
+}
+.hPre div:hover{
+    box-shadow: 1px 1px 1px rgb(158, 158, 158);
+}
+.food2{
+    background-image: url(../Assets/food2.avif);
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    h5{
+        margin-top: 180px;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    p{
+        width: 300px;
+        margin-left: 10px;
+    }
 }
 .avatar{
     background-image: url(../Assets/background.avif);
     height: 500px;
     width: 300px;
-    margin-left: 400px;
+    margin-right: 70px;
     background-position: center;
     background-size: cover;
     z-index: -1;
+    margin-top: 10px;
 }
 /*Favorites shops*/
 .shops h3{
@@ -167,7 +225,6 @@ nav{
 }
 .shops{
     margin-top: 20px;
-    z-index: 0;
 }
 .f-shops img{
     width: 231px;
@@ -222,6 +279,10 @@ nav{
     background-size: cover;
     margin: 20px 0;
     border-radius: 10px;
+    cursor: pointer;
+}
+.food div:hover{
+    box-shadow: 2px 2px 2px rgb(175, 175, 175);
 }
 .walter{
     background: url('../Assets/walter.avif');
