@@ -16,6 +16,9 @@
         background-color: rgb(255, 255, 255);
         z-index: 2;
     }
+    .background{
+        display: none;
+    }
     .log , .register{
         display: none;
     }
@@ -104,6 +107,9 @@
         margin: 5px;
         border-radius: 40px;
     }
+    .background{
+        display: none;
+    }
     .log , .register{
         display: none;
     }
@@ -171,7 +177,7 @@
         font-size: 20px;
         margin: 3px 0;
     }
-    .container {
+    main {
         max-width: 540px;
       }
 }
@@ -193,6 +199,9 @@
         color: grey;
         margin: 5px;
         border-radius: 40px;
+    }
+    .background{
+        display: flex;
     }
     .logo img{
         width: 80px;
@@ -271,9 +280,9 @@
     .avatar{
         margin-right: 5%;
     }
-    .container {
+    main {
         max-width: 720px;
-      }
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -305,6 +314,9 @@
         color: grey;
         margin: 5px;
         border-radius: 40px;
+    }
+    .background{
+        display: flex;
     }
     .present{
         margin-left: 10%;
@@ -367,17 +379,21 @@
     .lastF a{
         margin: 0 10px;
     }
-    .container {
+    main {
         max-width: 960px;
-      }
+    }
+    .background{
+        width: 100%;
+        padding: 0;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    .container {
-        max-width: 1140px;
-      }
-      .food2{
+@media only screen and (min-width: 1200px){
+    main {
+        max-width: 1600px;
+    }
+    .food2{
         p{
             width: 450px;
         }
