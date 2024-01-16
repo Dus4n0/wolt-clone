@@ -386,6 +386,9 @@
         width: 100%;
         padding: 0;
     }
+    .container{
+        margin: 0 5%;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -393,7 +396,26 @@
     main {
         max-width: 1600px;
     }
+    .container{
+        margin: 0 7%;
+    }
+    .food1{
+        width: 700px;
+        height: 450px;
+        margin: 0 15px;
+        h5{
+            margin-top: 350px;
+            font-size: 30px;
+        }
+    }
     .food2{
+        width: 700px;
+        height: 450px;
+        margin: 0 15px;
+        h5{
+            margin-top: 350px;
+            font-size: 30px;
+        }
         p{
             width: 450px;
         }
