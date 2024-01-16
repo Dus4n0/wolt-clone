@@ -147,13 +147,19 @@ nav{
     height: 400px;
     width: 100%;
     z-index: -1;
-    background-color: rgb(224, 119, 81);
+    background: linear-gradient(182.052deg, rgb(236, 144, 29) 18.7899%, 
+    rgb(236, 144, 29) 27.9013%, rgb(236, 143, 28) 35.3864%, rgb(236, 143, 27) 41.4994%, 
+    rgb(237, 141, 26) 46.4887%, rgb(238, 140, 24) 50.6069%, rgb(239, 139, 23) 54.1016%, 
+    rgb(239, 137, 21) 57.2179%, rgb(240, 136, 19) 60.2025%, rgb(240, 135, 17) 63.3187%, 
+    rgb(241, 133, 16) 66.8134%, rgb(243, 132, 14) 70.9317%, rgb(243, 130, 13) 75.9202%, 
+    rgb(244, 128, 12) 82.034%, rgb(244, 128, 11) 89.5191%, rgb(246, 126, 11) 98.6296%);
+
 }
 .present{
-    margin-left: 40px;
-    margin-top: 30px;
+    margin-left: 10%;
+    margin-top: 5%;
     width: 300px;
-    height: 50px;
+    height: 200px;
 }
 .present p{
     margin: 20px 0;
@@ -164,26 +170,28 @@ nav{
     justify-content: center;
     width: 100%;
     position: relative;
-    top: -70px;
+    top: -40px;
 }
 .food1{
     background-image: url(../Assets/food1.avif);
-    margin: 0 20px;
     background-position: center;
     background-size: cover;
-    width: 400px;
-    height: 250px;
+    margin: 0 10px;
+    width: 600px;
+    height: 350px;
     border-radius: 20px;
     cursor: pointer;
     color: white;
     text-shadow: 1px 1px 1px black;
     h5{
-        margin-top: 180px;
+        margin-top: 230px;
         margin-left: 10px;
-        font-size: 20px;
+        font-size: 26px;
     }
     p{
+        width: 350px;
         margin-left: 10px;
+        font-size: 18px;
     }
 }
 .hPre div:hover{
@@ -193,27 +201,29 @@ nav{
     background-image: url(../Assets/food2.avif);
     background-position: center;
     background-size: cover;
-    width: 400px;
-    height: 250px;
+    width: 600px;
+    height: 350px;
+    margin: 0 10px;
     border-radius: 20px;
     cursor: pointer;
     color: white;
     text-shadow: 1px 1px 1px black;
     h5{
-        margin-top: 180px;
+        margin-top: 230px;
         margin-left: 10px;
-        font-size: 20px;
+        font-size: 26px;
     }
     p{
-        width: 300px;
+        width: 350px;
         margin-left: 10px;
+        font-size: 18px;
     }
 }
 .avatar{
     background-image: url(../Assets/background.avif);
     height: 500px;
     width: 300px;
-    margin-right: 70px;
+    margin-right: 20%;
     background-position: center;
     background-size: cover;
     z-index: -1;
@@ -353,6 +363,7 @@ nav{
     p{
         margin-top: 180px;
         margin-left: 5px;
+        width: 230px;
     }
 }
 .food a{
