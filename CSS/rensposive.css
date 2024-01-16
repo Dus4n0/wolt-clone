@@ -171,6 +171,9 @@
         font-size: 20px;
         margin: 3px 0;
     }
+    .container {
+        max-width: 540px;
+      }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -250,12 +253,27 @@
     }
     .head{
         display: flex;
-        
- 
+    }
+    .food1{
+        height: 300px;
+        width: 350px;
+    }
+    .food2{
+        height: 300px;
+        width: 350px;
+        p{
+            margin-left: 0;
+        }
     }
     .present{
-        margin-left: 20px;
+        margin-left: 0;
     }
+    .avatar{
+        margin-right: 5%;
+    }
+    .container {
+        max-width: 720px;
+      }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -290,6 +308,14 @@
     }
     .present{
         margin-left: 10%;
+    }
+    .food1{
+        width: 500px;
+        height: 300px;
+    }
+    .food2{
+        width: 500px;
+        height: 300px;
     }
     footer{
         display: flex;
@@ -341,9 +367,19 @@
     .lastF a{
         margin: 0 10px;
     }
+    .container {
+        max-width: 960px;
+      }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    
+    .container {
+        max-width: 1140px;
+      }
+      .food2{
+        p{
+            width: 450px;
+        }
+      }
 }
