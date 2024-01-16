@@ -5,8 +5,16 @@
     .location{
         display: none;
     }
-    .sort a{
-        display: none;
+    .sort{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+        height: 50px;
+        background-color: rgb(255, 255, 255);
+        z-index: 2;
     }
     .log , .register{
         display: none;
@@ -80,8 +88,21 @@
     .location{
         display: none;
     }
+    .sort{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
     .sort a{
-        display: none;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        text-decoration: none;
+        list-style-type: none;
+        padding: 5px 10px;
+        color: grey;
+        margin: 5px;
+        border-radius: 40px;
     }
     .log , .register{
         display: none;
@@ -154,6 +175,27 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    .sort{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .sort a{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        text-decoration: none;
+        list-style-type: none;
+        padding: 5px 10px;
+        color: grey;
+        margin: 5px;
+        border-radius: 40px;
+    }
+    .logo img{
+        width: 80px;
+        display: flex;
+        align-items: center;
+    }
     footer{
         display: flex;
         justify-content: space-between;
@@ -208,6 +250,11 @@
     }
     .head{
         display: flex;
+        
+ 
+    }
+    .present{
+        margin-left: 20px;
     }
 }
 
@@ -227,9 +274,22 @@
     }
     .sort{
         display: flex;
+        justify-content: center;
+        margin-top: 20px;
     }
     .sort a{
         display: flex;
+        text-align: center;
+        align-items: center;
+        text-decoration: none;
+        list-style-type: none;
+        padding: 5px 10px;
+        color: grey;
+        margin: 5px;
+        border-radius: 40px;
+    }
+    .present{
+        margin-left: 10%;
     }
     footer{
         display: flex;
