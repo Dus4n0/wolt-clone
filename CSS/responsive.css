@@ -385,20 +385,14 @@
     .background{
         width: 100%;
         padding: 0;
-    }
-    .container{
-        margin: 0 5%;
-    }
+    } 
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px){
     main {
         max-width: 1600px;
-    }
-    .container{
-        margin: 0 7%;
-    }
+    } 
     .food1{
         width: 700px;
         height: 450px;
@@ -421,3 +415,27 @@
         }
       }
 }
+
+@media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+  }  
+  
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1600px;
+    }
+  }

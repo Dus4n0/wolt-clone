@@ -1,116 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywrods" content="Wolt">
-    <meta name="description" content="Food delivery">
-    <link rel="stylesheet" href="./CSS/style.css">
-    <link rel="stylesheet" href="./CSS/rensposive.css">
-    <link href="https://fonts.cdnfonts.com/css/omnes-2" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywrods" content="Wolt" />
+    <meta name="description" content="Food delivery" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/responsive.css" />
+    <link href="https://fonts.cdnfonts.com/css/omnes-2" rel="stylesheet" />
     <title>Wolt</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="background"></div>
-    <div class="container">
-       <nav>
-            <div>
-                <div class="logo-container">
-                    <a class="logo" href="#"><img src="./Assets/wolt.png" alt=""></a>
-                    <div class="loc-container">
-                        <button class="location" href="#"><img class="loc" src="./Assets/location.png" alt="">Belgrade<img class="arrow" src="./Assets/down-arrow.png" alt=""></button>
-                    </div>
-                </div>
+    <nav>
+      <div class="container" style="display: flex; justify-content: space-between;">
+        <div>
+          <div class="logo-container">
+            <a class="logo" href="#"><img src="./Assets/wolt.png" alt="" /></a>
+            <div class="loc-container">
+              <button class="location" href="#">
+                <img
+                  class="loc"
+                  src="./Assets/location.png"
+                  alt=""
+                />Belgrade<img
+                  class="arrow"
+                  src="./Assets/down-arrow.png"
+                  alt=""
+                />
+              </button>
             </div>
-            <div class="search-container">
-                <div class="search">
-                    <img class="loop" src="./Assets/search .png" alt="">
-                    <input class="sBar" placeholder="Trazi na Woltu..." type="search" >
-                </div>
-            </div>
-            <div>
-                <div class="r-bar">
-                    <button class="log">Prijava</button>
-                    <button class="register">Registracija</button>
-                    <button class="profile"><img src="./Assets/profile.png" alt=""><img src="./Assets/arrow-down.png" alt=""></button>
-                </div>
-            </div>
-        </nav>
-    </div>    
-        <main>
-            <div class="sort">
-                <a href="#"><img src="./Assets/smart-city.png" alt="">Otkrivanje</a>
-                <a href="#"><img src="./Assets/restaurant.png" alt="">Restorani</a>
-                <a href="#"><img src="./Assets/store.png" alt="">Radnje</a>
-            </div>
-            <div class="head">
-                <div class="present">
-                    <h2>Dostava samo iz obližnjih restorana i prodavnica</h2>
-                    <p>Ljudi trenutno puno naručuju, zbog čega privremeno možeš da poručiš samo iz obližnjih restorana. 
-                        Priprema hrane i isporuka porudžbina takođe može potrajati duže, a naša podrška takođe može biti 
-                        malo sporija nego obično. Partneri dostavljači, 
-                        restorani i mi se trudimo i dajemo sve od sebe - hvala na razumevanju! 💙</p>
-                </div>
-                <div class="avatar"></div>
-            </div>
-            <div class="hPre">
-                <div class="food1">
-                    <h5>Fast Food Antonio</h5>
-                    <p>Delicious snacks in of Vinkovci</p>
-                </div>
-                <div class="food2">
-                    <h5>Restoran Vatikan</h5>
-                    <p>Excellent grilled meat and fish dishes and pizzas of various kinds prepared by trained chefs</p>
-                </div>
-            </div>
-            <div class="shops">
-                <h3>Omiljene prodavnice🛍️🛒</h3>
-                <div class="f-shops">
-                    <a href="#"><img src="./Assets/computer land.png" alt=""><p>Computer land</p></a>
-                    <a href="#"><img src="./Assets/dis.png" alt=""><p>DIS</p></a>
-                    <a href="#"><img src="./Assets/woltmarket.png" alt=""><p>Wolt Market</p></a>
-                    <a href="#"><img src="./Assets/lilly.png" alt=""><p>Lilly</p></a>
-                </div>
-            </div>
-            <div class="food-shops">
-                <h3>Najbolje ocenjene</h3>
-                <div class="food">
-                    <div class="walter">
-                        <h5>Walter</h5>
-                        <p>Najukusniji cevapi</p>
-                    </div>
-                    <div class="kfc">
-                        <h5>KFC</h5>
-                        <p>Najukusnija piletina</p>
-                    </div>
-                    <div class="smash">
-                        <h5>Smash Burger</h5>
-                        <p>Najukusniji burgeri u Srbiji</p>
-                    </div>
-                    <div class="mcDonald">
-                        <h5>McDonald's</h5>
-                        <p>Akcija na burgerima i sladoledima</p>
-                    </div>
-                    <div class="pizza">
-                        <h5>Pizzagram</h5>
-                        <p>Sirok izbor pizza</p>
-                    </div>
-                </div>
-            </div>
-        </main>    
-        <footer>
-            <div class="firstF">
-                <a href="#"><img src="./Assets/location.png" alt=""><p>Srbija</p></a>
-                <a href="#"><img src="./Assets/world.png" alt=""><p>Srpski</p></a>
-                <a href="#"><img src="./Assets/eye.png" alt=""><p>Pristupacnost</p></a>
-            </div>
-            <div class="lastF">
-                <a href="#"><p>Izjava o pristupačnosti</p></a>
-                <a href="#"><p>Uslovi korišćenja usluge</p></a>
-                <a href="#"><p>Izjava o privatnosti</p></a>
-                <p>©️ Wolt 2014–2024</p>
-            </div>
-        </footer>
-    </div>    
-</body>
+          </div>
+        </div>
+        <div class="search-container">
+          <div class="search">
+            <img class="loop" src="./Assets/search .png" alt="" />
+            <input class="sBar" placeholder="Trazi na Woltu..." type="search" />
+          </div>
+        </div>
+        <div>
+          <div class="r-bar">
+            <button class="log">Prijava</button>
+            <button class="register">Registracija</button>
+            <button class="profile">
+              <img src="./Assets/profile.png" alt="" /><img
+                src="./Assets/arrow-down.png"
+                alt=""
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="sort">
+        <a href="#"><img src="./Assets/smart-city.png" alt="" />Otkrivanje</a>
+        <a href="#"><img src="./Assets/restaurant.png" alt="" />Restorani</a>
+        <a href="#"><img src="./Assets/store.png" alt="" />Radnje</a>
+      </div>
+      <div class="head">
+        <div class="present">
+          <h2>Dostava samo iz obližnjih restorana i prodavnica</h2>
+          <p>
+            Ljudi trenutno puno naručuju, zbog čega privremeno možeš da poručiš
+            samo iz obližnjih restorana. Priprema hrane i isporuka porudžbina
+            takođe može potrajati duže, a naša podrška takođe može biti malo
+            sporija nego obično. Partneri dostavljači, restorani i mi se trudimo
+            i dajemo sve od sebe - hvala na razumevanju! 💙
+          </p>
+        </div>
+        <div class="avatar"></div>
+      </div>
+      <div class="hPre container">
+        <div class="food1">
+          <h5>Fast Food Antonio</h5>
+          <p>Delicious snacks in of Vinkovci</p>
+        </div>
+        <div class="food2">
+          <h5>Restoran Vatikan</h5>
+          <p>
+            Excellent grilled meat and fish dishes and pizzas of various kinds
+            prepared by trained chefs
+          </p>
+        </div>
+      </div>
+      <div class="shops container">
+        <h3>Omiljene prodavnice🛍️🛒</h3>
+        <div class="f-shops">
+          <a href="#"
+            ><img src="./Assets/computer land.png" alt="" />
+            <p>Computer land</p></a
+          >
+          <a href="#"
+            ><img src="./Assets/dis.png" alt="" />
+            <p>DIS</p></a
+          >
+          <a href="#"
+            ><img src="./Assets/woltmarket.png" alt="" />
+            <p>Wolt Market</p></a
+          >
+          <a href="#"
+            ><img src="./Assets/lilly.png" alt="" />
+            <p>Lilly</p></a
+          >
+        </div>
+      </div>
+      <div class="food-shops container">
+        <h3>Najbolje ocenjene</h3>
+        <div class="food">
+          <div class="walter">
+            <h5>Walter</h5>
+            <p>Najukusniji cevapi</p>
+          </div>
+          <div class="kfc">
+            <h5>KFC</h5>
+            <p>Najukusnija piletina</p>
+          </div>
+          <div class="smash">
+            <h5>Smash Burger</h5>
+            <p>Najukusniji burgeri u Srbiji</p>
+          </div>
+          <div class="mcDonald">
+            <h5>McDonald's</h5>
+            <p>Akcija na burgerima i sladoledima</p>
+          </div>
+          <div class="pizza">
+            <h5>Pizzagram</h5>
+            <p>Sirok izbor pizza</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="firstF">
+        <a href="#"
+          ><img src="./Assets/location.png" alt="" />
+          <p>Srbija</p></a
+        >
+        <a href="#"
+          ><img src="./Assets/world.png" alt="" />
+          <p>Srpski</p></a
+        >
+        <a href="#"
+          ><img src="./Assets/eye.png" alt="" />
+          <p>Pristupacnost</p></a
+        >
+      </div>
+      <div class="lastF">
+        <a href="#"><p>Izjava o pristupačnosti</p></a>
+        <a href="#"><p>Uslovi korišćenja usluge</p></a>
+        <a href="#"><p>Izjava o privatnosti</p></a>
+        <p>©️ Wolt 2014–2024</p>
+      </div>
+    </footer>
+  </body>
 </html>
